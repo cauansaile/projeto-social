@@ -5,26 +5,23 @@ body{
     background-size: cover;
 }
 
-img{
-    display: block;
-    margin: auto;
-}
-
-aside{
-    text-align: right;
-    max-width: 40px;
-   
-}
-
 .icons{
+    border-radius: 50%;
     width: 45px;
-    height: 45px;
-    border-radius: 100%;
-    text-align: right;
-    padding: 10px;
     
+}
 
-    
-    
-   
+.sidebar{
+    width: 44px;
+    padding: 10px;
+    text-align: left;
+}
+
+.iphone{
+    position: relative;
+}
+
+img{
+    position: absolute;
+    left: 50%;
 }
