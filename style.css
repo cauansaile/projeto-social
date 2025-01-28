@@ -7,21 +7,41 @@ body{
 
 .icons{
     border-radius: 50%;
-    width: 45px;
+    width: 55px;
     
 }
 
-.sidebar{
-    width: 44px;
-    padding: 10px;
-    text-align: left;
-}
-
-.iphone{
+.content{
+    height: 97vh;
     position: relative;
+
 }
 
-img{
+.content > .sidebar{
+    width: 44px;
+    padding: 20px;
+    text-align: right;
+}
+
+.content > .iphone{
     position: absolute;
     left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    z-index: 1;
+    
+}
+
+
+
+iframe{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 266px;
+    height: 471px;
+    
 }
